@@ -27,7 +27,7 @@ brew install coreutils
 
 brew install git
 brew install terraform
-
+brew install wget
 
 # git configuration
 git config --global user.name Nabil Zaman
@@ -38,3 +38,6 @@ git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
 git config --global alias.prune "fetch --prune"
+
+# Download the bash completion script for git, this must be sourced in .bashrc
+wget -O .git-completion.bash https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
