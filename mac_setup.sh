@@ -41,3 +41,6 @@ git config --global alias.prune "fetch --prune"
 
 # Download the bash completion script for git, this must be sourced in .bashrc
 wget -O .git-completion.bash https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash
+
+# Install aws cli
+pip3 install awscli --upgrade --user
