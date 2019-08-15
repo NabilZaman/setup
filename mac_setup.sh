@@ -33,6 +33,7 @@ brew install wget
 git config --global user.name Nabil Zaman
 git config --global user.email nabilzaman1@gmail.com
 git config --global push.default current
+git config --global core.editor vim
 git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.ci commit
